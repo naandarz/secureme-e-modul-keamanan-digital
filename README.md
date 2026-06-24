@@ -19,7 +19,7 @@ Tambahkan link GitHub Pages di sini setelah deploy.
 Contoh:
 
 ```text
-https://username.github.io/secureme-e-modul-keamanan-digital/
+https://github.com/naandarz/secureme-e-modul-keamanan-digital.git
 ```
 
 ---
