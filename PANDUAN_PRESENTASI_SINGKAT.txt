@@ -1,0 +1,17 @@
+NARASI PRESENTASI SINGKAT
+
+Assalamu’alaikum warahmatullahi wabarakatuh.
+
+Pada UAS Pengembangan Bahan Ajar ini, saya membuat produk berupa e-modul interaktif dengan topik Keamanan dan Privasi Digital. E-modul ini saya beri nama SecureMe. Produk ini ditujukan untuk membantu mahasiswa memahami pentingnya menjaga data pribadi, mengenali ancaman digital, serta menerapkan kebiasaan aman saat menggunakan internet.
+
+Pada halaman pembuka terdapat judul, deskripsi singkat, dan tujuan pembelajaran. Tujuan utamanya adalah agar pengguna mampu memahami keamanan dan privasi digital, mengenali ancaman seperti phishing dan malware, membuat password yang kuat, memahami OTP dan autentikasi dua faktor, serta menerapkan praktik aman dalam aktivitas digital sehari-hari.
+
+Pada bagian materi, e-modul ini berisi lima submateri utama. Pertama, dasar keamanan dan privasi digital. Kedua, data pribadi dan jejak digital. Ketiga, ancaman digital. Keempat, password, OTP, dan autentikasi dua faktor. Kelima, praktik aman harian. Setiap materi dilengkapi dengan contoh kasus dan visual pendukung agar lebih mudah dipahami.
+
+Keunggulan dari e-modul ini adalah adanya aktivitas interaktif. Pengguna dapat menambahkan video YouTube secara langsung melalui input link. Selain itu, terdapat simulasi cek kekuatan password, simulasi deteksi phishing, aktivitas drag and drop, flashcard istilah penting, serta refleksi audit privasi diri.
+
+Pada bagian evaluasi, terdapat soal pilihan ganda yang dapat dikerjakan langsung oleh pengguna. Setelah dikumpulkan, sistem akan menghitung skor secara otomatis dan memberikan rekomendasi belajar sesuai hasil yang diperoleh.
+
+Dengan demikian, e-modul ini tidak hanya berisi materi, tetapi juga menyediakan pengalaman belajar yang aktif, praktis, dan sesuai dengan kebutuhan literasi digital mahasiswa.
+
+Wassalamu’alaikum warahmatullahi wabarakatuh.

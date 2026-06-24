@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SecureMe | E-Modul Interaktif Keamanan dan Privasi Digital</title>
+  <meta name="description" content="E-Modul Interaktif Keamanan dan Privasi Digital untuk Mata Kuliah Literasi Dasar UMS." />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div class="scanline" aria-hidden="true"></div>
+  <header class="topbar">
+    <a href="#pembuka" class="brand" aria-label="Kembali ke halaman pembuka">
+      <span class="terminal-icon">⌘</span>
+      <span>SECUREME</span>
+    </a>
+    <nav class="desktop-nav" aria-label="Navigasi utama">
+      <a href="#pembuka">/ pembuka</a>
+      <a href="#materi">/ materi</a>
+      <a href="#aktivitas">/ aktivitas</a>
+      <a href="#evaluasi">/ evaluasi</a>
+      <a href="#referensi">/ referensi</a>
+    </nav>
+    <div class="sys-info">
+      <span id="clock">SYS.TIME</span>
+      <button class="icon-button" id="themeToggle" aria-label="Ganti tema">◐</button>
+      <button class="icon-button menu-toggle" id="menuToggle" aria-label="Buka menu">☰</button>
+    </div>
+  </header>
+
+  <aside class="side-panel" id="sidePanel" aria-label="Panel navigasi modul">
+    <div class="side-heading">
+      <p class="eyebrow">CURRICULUM</p>
+      <h2>5 AREA MODUL</h2>
+      <p class="muted">Belajar mandiri, praktik langsung, dan evaluasi otomatis.</p>
+    </div>
+    <a class="side-link active" href="#pembuka" data-section-link="pembuka"><span>01</span> Pembuka</a>
+    <a class="side-link" href="#materi" data-section-link="materi"><span>02</span> Materi</a>
+    <a class="side-link" href="#video" data-section-link="video"><span>03</span> Video</a>
+    <a class="side-link" href="#aktivitas" data-section-link="aktivitas"><span>04</span> Aktivitas</a>
+    <a class="side-link" href="#evaluasi" data-section-link="evaluasi"><span>05</span> Evaluasi</a>
+    <a class="side-link" href="#referensi" data-section-link="referensi"><span>06</span> Referensi</a>
+    <div class="progress-card">
+      <div class="progress-row">
+        <span>PROGRESS</span>
+        <strong id="progressLabel">0%</strong>
+      </div>
+      <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+      <small id="progressText">Mulai dari halaman pembuka.</small>
+    </div>
+  </aside>
+
+  <main class="content">
+    <section id="pembuka" class="hero module-section" data-module="pembuka">
+      <div class="grid-bg" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <p class="module-tag">SEC-MODULE-01 // 2026</p>
+        <h1>Keamanan <span>dan Privasi</span> Digital</h1>
+        <p class="hero-subtitle">
+          E-modul interaktif untuk membantu mahasiswa memahami cara melindungi data pribadi, mengenali ancaman digital, membuat kata sandi kuat, dan menggunakan internet secara aman.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#materi">Mulai Belajar ↗</a>
+          <a class="btn outline" href="#aktivitas">Coba Simulasi □</a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="Ilustrasi keamanan digital">
+        <div class="device-window">
+          <div class="window-bar"><span></span><span></span><span></span><small>SECURITY_DASHBOARD</small></div>
+          <div class="shield-wrap">
+            <div class="shield">🔐</div>
+            <div class="orbit orbit-one"></div>
+            <div class="orbit orbit-two"></div>
+            <div class="data-chip chip-a">MFA: ON</div>
+            <div class="data-chip chip-b">DATA: PRIVATE</div>
+            <div class="data-chip chip-c">RISK: LOW</div>
+          </div>
+        </div>
+      </div>
+      <div class="objective-panel">
+        <span class="label-tab">TUJUAN PEMBELAJARAN</span>
+        <ul>
+          <li>Menjelaskan konsep keamanan digital dan privasi digital.</li>
+          <li>Mengidentifikasi ancaman seperti phishing, malware, social engineering, dan kebocoran data.</li>
+          <li>Menerapkan cara membuat password kuat dan menggunakan autentikasi dua faktor.</li>
+          <li>Menganalisis contoh kasus pelanggaran privasi digital.</li>
+          <li>Mempraktikkan langkah sederhana untuk menjaga keamanan akun dan data pribadi.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="materi" class="module-section section-block" data-module="materi">
+      <div class="section-header">
+        <p class="module-tag">SEC-MODULE-02 // MATERI</p>
+        <h2>Materi Pembelajaran</h2>
+        <p>Materi dirancang singkat, bertahap, dan dilengkapi contoh kasus agar mahasiswa dapat belajar mandiri.</p>
+      </div>
+
+      <div class="lesson-layout">
+        <div class="lesson-list" id="lessonList" aria-label="Daftar materi pembelajaran">
+          <button class="lesson-tab active" data-lesson="0"><span>01</span> Dasar Keamanan & Privasi</button>
+          <button class="lesson-tab" data-lesson="1"><span>02</span> Data Pribadi & Jejak Digital</button>
+          <button class="lesson-tab" data-lesson="2"><span>03</span> Ancaman Digital</button>
+          <button class="lesson-tab" data-lesson="3"><span>04</span> Password, OTP & 2FA</button>
+          <button class="lesson-tab" data-lesson="4"><span>05</span> Praktik Aman Harian</button>
+        </div>
+
+        <article class="lesson-card" id="lessonCard">
+          <div class="lesson-meta"><span id="lessonCode">LESSON_01</span><span id="lessonDuration">± 12 menit</span></div>
+          <h3 id="lessonTitle">Dasar Keamanan dan Privasi Digital</h3>
+          <p id="lessonText"></p>
+          <div class="case-box">
+            <span class="label-tab">CONTOH KASUS</span>
+            <p id="lessonCase"></p>
+          </div>
+          <div class="infographic" id="lessonVisual" aria-label="Visual pendukung materi"></div>
+          <div class="lesson-actions">
+            <button class="btn small" id="prevLesson">← Materi Sebelumnya</button>
+            <button class="btn small primary" id="nextLesson">Materi Berikutnya →</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="video" class="module-section section-block video-section" data-module="video">
+      <div class="section-header">
+        <p class="module-tag">SEC-MODULE-03 // INTERACTIVE VIDEO</p>
+        <h2>Video Pembelajaran YouTube</h2>
+        <p>Tempel link video YouTube bertema keamanan digital, lalu tampilkan langsung di e-modul. Fitur ini membuat dosen/pengembang mudah mengganti video tanpa mengubah kode.</p>
+      </div>
+      <div class="video-grid">
+        <div class="video-player-card">
+          <div class="video-frame">
+            <iframe id="youtubeFrame" src="https://www.youtube.com/embed/OluNasJkugI" title="Video pembelajaran keamanan digital" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <div class="input-row">
+            <input id="youtubeInput" type="url" value="https://www.youtube.com/watch?v=OluNasJkugI" aria-label="Masukkan link YouTube" placeholder="Tempel link YouTube di sini" />
+            <button class="btn primary" id="loadVideo">Tampilkan Video</button>
+          </div>
+          <p class="hint" id="videoHint">Contoh format: https://www.youtube.com/watch?v=ID_VIDEO atau https://youtu.be/ID_VIDEO</p>
+        </div>
+        <div class="video-quiz-card">
+          <span class="label-tab">CEK PEMAHAMAN VIDEO</span>
+          <h3>Setelah menonton, jawab cepat:</h3>
+          <div class="mini-question" data-mini="0">
+            <p>1. Saat menerima pesan yang meminta OTP, tindakan paling aman adalah...</p>
+            <button data-correct="false">Mengirim OTP agar proses cepat selesai</button>
+            <button data-correct="true">Tidak membagikan OTP dan memeriksa sumber pesan</button>
+          </div>
+          <div class="mini-question" data-mini="1">
+            <p>2. Link mencurigakan sebaiknya...</p>
+            <button data-correct="true">Diperiksa terlebih dahulu sebelum dibuka</button>
+            <button data-correct="false">Langsung diklik karena terlihat mendesak</button>
+          </div>
+          <div class="feedback-panel" id="miniFeedback">Pilih jawaban untuk melihat feedback.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="aktivitas" class="module-section section-block" data-module="aktivitas">
+      <div class="section-header">
+        <p class="module-tag">SEC-MODULE-04 // PRAKTIK LANGSUNG</p>
+        <h2>Aktivitas Interaktif</h2>
+        <p>Bagian ini memuat simulasi yang bisa dipraktikkan langsung di e-modul: cek password, deteksi phishing, drag and drop kebiasaan aman, flashcard, dan refleksi.</p>
+      </div>
+
+      <div class="activity-grid">
+        <article class="activity-card password-lab">
+          <span class="label-tab">SIMULASI 01</span>
+          <h3>Cek Kekuatan Password</h3>
+          <p class="muted">Gunakan password contoh saja. Data tidak dikirim dan tidak disimpan.</p>
+          <label for="passwordInput">Masukkan contoh password</label>
+          <div class="password-row">
+            <input id="passwordInput" type="password" placeholder="Contoh: B!ruLangit_2026#" autocomplete="off" />
+            <button class="btn small" id="showPassword">Lihat</button>
+          </div>
+          <div class="strength-meter" aria-hidden="true"><div id="strengthBar"></div></div>
+          <div class="strength-result" id="strengthResult">Status: menunggu input.</div>
+          <ul class="checklist" id="passwordChecklist"></ul>
+        </article>
+
+        <article class="activity-card phishing-lab">
+          <span class="label-tab">SIMULASI 02</span>
+          <h3>Deteksi Pesan Phishing</h3>
+          <p class="muted">Klik bagian pesan yang menurut Anda mencurigakan.</p>
+          <div class="fake-email">
+            <button class="hotspot" data-flag="Pengirim tidak resmi dan memakai domain aneh."><strong>Dari:</strong> admin-ums-security@verify-login.ru</button>
+            <button class="hotspot" data-flag="Bahasa menekan korban agar bertindak cepat."><strong>Subjek:</strong> AKUN ANDA AKAN DITUTUP 1 JAM LAGI!</button>
+            <button class="hotspot" data-flag="Meminta password dan OTP adalah tanda bahaya.">Mohon login dan kirimkan password serta OTP Anda agar akun tetap aktif.</button>
+            <button class="hotspot" data-flag="Link terlihat tidak sama dengan domain resmi.">Klik: http://ums-login-free-check.example.ru</button>
+          </div>
+          <div class="feedback-panel" id="phishingFeedback">Temukan 4 tanda bahaya pada pesan.</div>
+        </article>
+
+        <article class="activity-card drag-lab full-width">
+          <span class="label-tab">AKTIVITAS 03</span>
+          <h3>Drag and Drop Kebiasaan Digital</h3>
+          <p class="muted">Seret kartu ke kategori yang tepat. Di HP, ketuk kartu lalu pilih tujuan.</p>
+          <div class="drag-source" id="dragSource"></div>
+          <div class="drop-grid">
+            <div class="drop-zone" data-zone="aman">
+              <h4>KEBIASAAN AMAN</h4>
+              <p class="empty">Letakkan praktik aman di sini</p>
+            </div>
+            <div class="drop-zone danger" data-zone="berisiko">
+              <h4>KEBIASAAN BERISIKO</h4>
+              <p class="empty">Letakkan kebiasaan berisiko di sini</p>
+            </div>
+          </div>
+          <button class="btn primary" id="checkDrag">Periksa Jawaban</button>
+          <div class="feedback-panel" id="dragFeedback">Susun semua kartu terlebih dahulu.</div>
+        </article>
+
+        <article class="activity-card flashcard-lab">
+          <span class="label-tab">AKTIVITAS 04</span>
+          <h3>Flashcard Istilah Penting</h3>
+          <div class="flashcard" id="flashcard" tabindex="0" role="button" aria-label="Klik untuk membalik flashcard">
+            <div class="flash-front">
+              <p class="term" id="flashTerm">Phishing</p>
+              <small>Klik untuk melihat arti</small>
+            </div>
+            <div class="flash-back">
+              <p id="flashDefinition">Upaya penipuan untuk mendapatkan data pribadi melalui pesan, email, atau situs palsu.</p>
+            </div>
+          </div>
+          <div class="flash-actions">
+            <button class="btn small" id="prevFlash">←</button>
+            <button class="btn small primary" id="flipFlash">Balik Kartu</button>
+            <button class="btn small" id="nextFlash">→</button>
+          </div>
+        </article>
+
+        <article class="activity-card reflection-lab">
+          <span class="label-tab">REFLEKSI</span>
+          <h3>Audit Privasi Diri</h3>
+          <p class="muted">Centang kondisi yang sudah Anda lakukan.</p>
+          <label><input type="checkbox" class="reflect-check" /> Saya memakai password berbeda untuk akun penting.</label>
+          <label><input type="checkbox" class="reflect-check" /> Saya sudah mengaktifkan autentikasi dua faktor.</label>
+          <label><input type="checkbox" class="reflect-check" /> Saya memeriksa izin aplikasi di HP.</label>
+          <label><input type="checkbox" class="reflect-check" /> Saya tidak membagikan OTP kepada siapa pun.</label>
+          <label><input type="checkbox" class="reflect-check" /> Saya berhati-hati saat memakai Wi-Fi publik.</label>
+          <textarea id="reflectionText" placeholder="Tulis satu rencana perbaikan keamanan digital Anda..."></textarea>
+          <button class="btn primary" id="saveReflection">Simpan Refleksi</button>
+          <div class="feedback-panel" id="reflectionFeedback">Refleksi belum disimpan.</div>
+        </article>
+      </div>
+    </section>
+
+    <section id="evaluasi" class="module-section section-block" data-module="evaluasi">
+      <div class="section-header">
+        <p class="module-tag">SEC-MODULE-05 // EVALUASI</p>
+        <h2>Evaluasi Pemahaman</h2>
+        <p>Jawab soal berikut untuk mengukur pemahaman Anda. Nilai akan dihitung otomatis.</p>
+      </div>
+      <form id="quizForm" class="quiz-card"></form>
+      <div class="quiz-actions">
+        <button class="btn primary" id="submitQuiz" type="button">Kumpulkan Evaluasi</button>
+        <button class="btn outline" id="resetQuiz" type="button">Ulangi</button>
+      </div>
+      <div class="score-panel" id="scorePanel">
+        <span class="label-tab">HASIL EVALUASI</span>
+        <h3 id="scoreTitle">Belum ada nilai.</h3>
+        <p id="scoreText">Kerjakan evaluasi untuk mendapatkan skor.</p>
+      </div>
+    </section>
+
+    <section id="referensi" class="module-section section-block references" data-module="referensi">
+      <div class="section-header">
+        <p class="module-tag">SEC-MODULE-06 // REFERENSI</p>
+        <h2>Referensi Sumber</h2>
+        <p>Sumber berikut digunakan untuk mendukung materi keamanan, privasi digital, MFA, phishing, dan perlindungan data pribadi.</p>
+      </div>
+      <div class="reference-grid">
+        <a class="reference-card" href="https://www.nist.gov/itl/smallbusinesscyber/cybersecurity-basics" target="_blank" rel="noopener">
+          <span>NIST</span>
+          <h3>Cybersecurity Basics</h3>
+          <p>Panduan dasar keamanan siber, termasuk MFA, password manager, backup data, dan mengganti password bawaan perangkat.</p>
+        </a>
+        <a class="reference-card" href="https://pages.nist.gov/800-63-4/sp800-63b.html" target="_blank" rel="noopener">
+          <span>NIST SP 800-63B</span>
+          <h3>Password & Authenticator</h3>
+          <p>Pedoman terkait password/passphrase dan autentikasi digital.</p>
+        </a>
+        <a class="reference-card" href="https://support.google.com/mail/answer/8253?hl=id" target="_blank" rel="noopener">
+          <span>Google Help</span>
+          <h3>Menghindari Phishing</h3>
+          <p>Panduan mengenali dan melaporkan email phishing serta tidak memasukkan password dari link mencurigakan.</p>
+        </a>
+        <a class="reference-card" href="https://gnld.siberkreasi.id/modul/" target="_blank" rel="noopener">
+          <span>Siberkreasi</span>
+          <h3>4 Pilar Literasi Digital</h3>
+          <p>Rujukan literasi digital Indonesia yang mencakup kecakapan, etika, budaya, dan keamanan digital.</p>
+        </a>
+        <a class="reference-card" href="https://jdih.komdigi.go.id/infografis/view/19" target="_blank" rel="noopener">
+          <span>Komdigi</span>
+          <h3>Perlindungan Data Pribadi</h3>
+          <p>Penjelasan tentang data pribadi dan pentingnya menjaga kerahasiaan data.</p>
+        </a>
+        <a class="reference-card" href="https://djkpm.komdigi.go.id/berita/artikel/35/era-baru-perlindungan-data-pribadi" target="_blank" rel="noopener">
+          <span>Komdigi</span>
+          <h3>Era Baru Perlindungan Data Pribadi</h3>
+          <p>Informasi tentang keberlakuan UU PDP di Indonesia dan relevansinya dengan privasi digital.</p>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="statusbar">
+    <span><b>●</b> CONNECTION SECURE</span>
+    <span>&gt; ACCESS GRANTED_</span>
+    <span>NODE: CYBR_01</span>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
